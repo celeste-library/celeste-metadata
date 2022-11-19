@@ -2,7 +2,7 @@
   "id": "celeste",
   "gameId": "Celeste",
   "name": "Celeste",
-  "desc": "Madelines journey to the summit of Celeste Mountain.",
+  "desc": "Madeline's journey to the summit of Celeste Mountain.",
   "chapterCount": 11,
   "chapters": [
     {
@@ -84,7 +84,12 @@
                   "bottom": 184,
                   "right": 400
                 }
-              }
+              },
+              "linked": [
+                "-1",
+                "0b",
+                "1"
+              ]
             },
             "1": {
               "name": "Broken driveway II",
@@ -120,7 +125,11 @@
                   "bottom": 184,
                   "right": 864
                 }
-              }
+              },
+              "linked": [
+                "0",
+                "2"
+              ]
             },
             "2": {
               "name": "Old Woman",
@@ -156,7 +165,11 @@
                   "bottom": 96,
                   "right": 1184
                 }
-              }
+              },
+              "linked": [
+                "1",
+                "3"
+              ]
             },
             "3": {
               "name": "Dash tutorial",
@@ -188,7 +201,10 @@
                   "bottom": 96,
                   "right": 2176
                 }
-              }
+              },
+              "linked": [
+                "2"
+              ]
             },
             "-1": {
               "name": "Drive up",
@@ -220,7 +236,10 @@
                   "bottom": 184,
                   "right": -48
                 }
-              }
+              },
+              "linked": [
+                "0"
+              ]
             },
             "0b": {
               "name": "Birds",
@@ -252,7 +271,10 @@
                   "bottom": 0,
                   "right": 384
                 }
-              }
+              },
+              "linked": [
+                "0"
+              ]
             }
           },
           "roomCount": 6,
@@ -427,7 +449,10 @@
                   "bottom": 184,
                   "right": 320
                 }
-              }
+              },
+              "linked": [
+                "2"
+              ]
             },
             "2": {
               "name": "Berry and spring",
@@ -467,7 +492,11 @@
                   "bottom": 0,
                   "right": 560
                 }
-              }
+              },
+              "linked": [
+                "1",
+                "3"
+              ]
             },
             "3": {
               "name": "Floating platforms",
@@ -507,7 +536,11 @@
                   "bottom": -184,
                   "right": 816
                 }
-              }
+              },
+              "linked": [
+                "2",
+                "4"
+              ]
             },
             "4": {
               "name": "Zipper intro",
@@ -539,7 +572,11 @@
                   "bottom": -368,
                   "right": 1056
                 }
-              }
+              },
+              "linked": [
+                "3",
+                "3b"
+              ]
             },
             "5": {
               "name": "Zipper and top-left berry",
@@ -583,7 +620,13 @@
                   "bottom": -736,
                   "right": 1344
                 }
-              }
+              },
+              "linked": [
+                "3b",
+                "5z",
+                "5a",
+                "6"
+              ]
             },
             "6": {
               "name": "Dashless is hard",
@@ -631,7 +674,12 @@
                   "bottom": -1024,
                   "right": 1616
                 }
-              }
+              },
+              "linked": [
+                "5",
+                "6z",
+                "6a"
+              ]
             },
             "7": {
               "name": "Falling ice",
@@ -663,7 +711,11 @@
                   "bottom": -1456,
                   "right": 2856
                 }
-              }
+              },
+              "linked": [
+                "6c",
+                "8"
+              ]
             },
             "8": {
               "name": "Junction",
@@ -707,7 +759,14 @@
                   "bottom": -1672,
                   "right": 3016
                 }
-              }
+              },
+              "linked": [
+                "7",
+                "8zb",
+                "9z",
+                "7a",
+                "8b"
+              ]
             },
             "9": {
               "name": "Up and right",
@@ -751,7 +810,11 @@
                   "bottom": -1904,
                   "right": 3560
                 }
-              }
+              },
+              "linked": [
+                "8b",
+                "9b"
+              ]
             },
             "10": {
               "name": "Narrow spike shaft",
@@ -795,7 +858,12 @@
                   "bottom": -2192,
                   "right": 3672
                 }
-              }
+              },
+              "linked": [
+                "9b",
+                "10z",
+                "11"
+              ]
             },
             "11": {
               "name": "Overpass and Underpass",
@@ -843,7 +911,11 @@
                   "bottom": -2416,
                   "right": 3760
                 }
-              }
+              },
+              "linked": [
+                "10",
+                "11z"
+              ]
             },
             "12": {
               "name": "Snow blocks",
@@ -883,7 +955,12 @@
                   "bottom": -2680,
                   "right": 3824
                 }
-              }
+              },
+              "linked": [
+                "11",
+                "12z",
+                "12a"
+              ]
             },
             "10a": {
               "name": "Around and up",
@@ -915,7 +992,11 @@
                   "bottom": -2192,
                   "right": 3992
                 }
-              }
+              },
+              "linked": [
+                "9b",
+                "11"
+              ]
             },
             "10z": {
               "name": "One way spikes",
@@ -951,7 +1032,11 @@
                   "bottom": -2192,
                   "right": 3352
                 }
-              }
+              },
+              "linked": [
+                "10",
+                "10zb"
+              ]
             },
             "10zb": {
               "name": "Cliff berry",
@@ -991,7 +1076,10 @@
                   "bottom": -2192,
                   "right": 3032
                 }
-              }
+              },
+              "linked": [
+                "10z"
+              ]
             },
             "11z": {
               "name": "Cassette room",
@@ -1029,7 +1117,10 @@
                   "bottom": -2456,
                   "right": 3352
                 }
-              }
+              },
+              "linked": [
+                "11"
+              ]
             },
             "12a": {
               "name": "Hanging platforms",
@@ -1061,7 +1152,11 @@
                   "bottom": -2680,
                   "right": 4144
                 }
-              }
+              },
+              "linked": [
+                "12",
+                "end"
+              ]
             },
             "12z": {
               "name": "Dash crystal berry",
@@ -1101,7 +1196,10 @@
                   "bottom": -2808,
                   "right": 3408
                 }
-              }
+              },
+              "linked": [
+                "12"
+              ]
             },
             "3b": {
               "name": "Crumbling winged berry",
@@ -1141,7 +1239,11 @@
                   "bottom": -552,
                   "right": 1192
                 }
-              }
+              },
+              "linked": [
+                "4",
+                "5"
+              ]
             },
             "5a": {
               "name": "Launch berry",
@@ -1181,7 +1283,10 @@
                   "bottom": -624,
                   "right": 1664
                 }
-              }
+              },
+              "linked": [
+                "5"
+              ]
             },
             "5z": {
               "name": "Up and around berry",
@@ -1221,7 +1326,10 @@
                   "bottom": -736,
                   "right": 1024
                 }
-              }
+              },
+              "linked": [
+                "5"
+              ]
             },
             "6a": {
               "name": "Coffee shop",
@@ -1257,7 +1365,11 @@
                   "bottom": -1024,
                   "right": 2008
                 }
-              }
+              },
+              "linked": [
+                "6",
+                "6b"
+              ]
             },
             "6b": {
               "name": "Zippers & Spikes",
@@ -1297,7 +1409,12 @@
                   "bottom": -1096,
                   "right": 2328
                 }
-              }
+              },
+              "linked": [
+                "6",
+                "s0",
+                "6c"
+              ]
             },
             "6c": {
               "name": "Springs and path fork",
@@ -1329,7 +1446,12 @@
                   "bottom": -1272,
                   "right": 2648
                 }
-              }
+              },
+              "linked": [
+                "6b",
+                "7z",
+                "7"
+              ]
             },
             "6z": {
               "name": "Over spike pit",
@@ -1365,7 +1487,12 @@
                   "bottom": -1024,
                   "right": 1296
                 }
-              }
+              },
+              "linked": [
+                "6",
+                "6zb",
+                "7zb"
+              ]
             },
             "6zb": {
               "name": "Theo the Adventurer",
@@ -1401,7 +1528,11 @@
                   "bottom": -1024,
                   "right": 976
                 }
-              }
+              },
+              "linked": [
+                "6z",
+                "7zb"
+              ]
             },
             "7a": {
               "name": "Tri-zip berry",
@@ -1441,7 +1572,10 @@
                   "bottom": -1456,
                   "right": 3224
                 }
-              }
+              },
+              "linked": [
+                "8"
+              ]
             },
             "7z": {
               "name": "Berry path I",
@@ -1481,7 +1615,11 @@
                   "bottom": -1384,
                   "right": 2328
                 }
-              }
+              },
+              "linked": [
+                "6c",
+                "8z"
+              ]
             },
             "7zb": {
               "name": "Berry above Theo",
@@ -1525,7 +1663,11 @@
                   "bottom": -1208,
                   "right": 1040
                 }
-              }
+              },
+              "linked": [
+                "6z",
+                "6zb"
+              ]
             },
             "8b": {
               "name": "Ceiling zippers",
@@ -1565,7 +1707,11 @@
                   "bottom": -1720,
                   "right": 3336
                 }
-              }
+              },
+              "linked": [
+                "8",
+                "9"
+              ]
             },
             "8z": {
               "name": "Berry path II",
@@ -1601,7 +1747,11 @@
                   "bottom": -1584,
                   "right": 2376
                 }
-              }
+              },
+              "linked": [
+                "7z",
+                "8zb"
+              ]
             },
             "8zb": {
               "name": "Berry path III",
@@ -1645,7 +1795,11 @@
                   "bottom": -1672,
                   "right": 2696
                 }
-              }
+              },
+              "linked": [
+                "8z",
+                "8"
+              ]
             },
             "9b": {
               "name": "Mind the gap",
@@ -1697,7 +1851,13 @@
                   "bottom": -2008,
                   "right": 3880
                 }
-              }
+              },
+              "linked": [
+                "9",
+                "10",
+                "10a",
+                "9c"
+              ]
             },
             "9c": {
               "name": "Winged zip berry",
@@ -1737,7 +1897,10 @@
                   "bottom": -2008,
                   "right": 4200
                 }
-              }
+              },
+              "linked": [
+                "9b"
+              ]
             },
             "9z": {
               "name": "Zip around berry",
@@ -1777,7 +1940,10 @@
                   "bottom": -1856,
                   "right": 3016
                 }
-              }
+              },
+              "linked": [
+                "8"
+              ]
             },
             "end": {
               "name": "Monument",
@@ -1809,7 +1975,10 @@
                   "bottom": -3024,
                   "right": 4160
                 }
-              }
+              },
+              "linked": [
+                "12a"
+              ]
             },
             "s0": {
               "name": "Zipper gate",
@@ -1845,7 +2014,11 @@
                   "bottom": -1296,
                   "right": 2008
                 }
-              }
+              },
+              "linked": [
+                "6b",
+                "s1"
+              ]
             },
             "s1": {
               "name": "Heart puzzle",
@@ -1895,7 +2068,10 @@
                   "bottom": -1480,
                   "right": 1688
                 }
-              }
+              },
+              "linked": [
+                "s0"
+              ]
             }
           },
           "roomCount": 38,
@@ -2037,7 +2213,11 @@
                   "bottom": -2296,
                   "right": 4312
                 }
-              }
+              },
+              "linked": [
+                "09",
+                "11"
+              ]
             },
             "11": {
               "name": "Zipper launches",
@@ -2069,7 +2249,11 @@
                   "bottom": -2432,
                   "right": 4632
                 }
-              }
+              },
+              "linked": [
+                "10",
+                "end"
+              ]
             },
             "00": {
               "name": "Start",
@@ -2107,7 +2291,10 @@
                   "bottom": 184,
                   "right": 312
                 }
-              }
+              },
+              "linked": [
+                "01"
+              ]
             },
             "01": {
               "name": "Dual zippers",
@@ -2139,7 +2326,11 @@
                   "bottom": 0,
                   "right": 544
                 }
-              }
+              },
+              "linked": [
+                "00",
+                "02"
+              ]
             },
             "02": {
               "name": "Over and under",
@@ -2171,7 +2362,11 @@
                   "bottom": -184,
                   "right": 816
                 }
-              }
+              },
+              "linked": [
+                "01",
+                "02b"
+              ]
             },
             "02b": {
               "name": "Three zipper jumps",
@@ -2203,7 +2398,11 @@
                   "bottom": -368,
                   "right": 1136
                 }
-              }
+              },
+              "linked": [
+                "02",
+                "03"
+              ]
             },
             "03": {
               "name": "Stamina jumps",
@@ -2239,7 +2438,11 @@
                   "bottom": -560,
                   "right": 1504
                 }
-              }
+              },
+              "linked": [
+                "02b",
+                "04"
+              ]
             },
             "04": {
               "name": "Contraption",
@@ -2271,7 +2474,11 @@
                   "bottom": -648,
                   "right": 1848
                 }
-              }
+              },
+              "linked": [
+                "03",
+                "05"
+              ]
             },
             "05": {
               "name": "Zip over and up",
@@ -2303,7 +2510,11 @@
                   "bottom": -840,
                   "right": 2192
                 }
-              }
+              },
+              "linked": [
+                "04",
+                "05b"
+              ]
             },
             "05b": {
               "name": "One way spikes",
@@ -2335,7 +2546,11 @@
                   "bottom": -1024,
                   "right": 2512
                 }
-              }
+              },
+              "linked": [
+                "05",
+                "06"
+              ]
             },
             "06": {
               "name": "Stamina jump puzzle",
@@ -2371,7 +2586,11 @@
                   "bottom": -1208,
                   "right": 2808
                 }
-              }
+              },
+              "linked": [
+                "05b",
+                "07"
+              ]
             },
             "07": {
               "name": "Obstacle spikes",
@@ -2403,7 +2622,11 @@
                   "bottom": -1248,
                   "right": 3128
                 }
-              }
+              },
+              "linked": [
+                "06",
+                "08"
+              ]
             },
             "08": {
               "name": "Crumble block dash",
@@ -2435,7 +2658,11 @@
                   "bottom": -1592,
                   "right": 3176
                 }
-              }
+              },
+              "linked": [
+                "07",
+                "08b"
+              ]
             },
             "08b": {
               "name": "Little zippers",
@@ -2467,7 +2694,11 @@
                   "bottom": -1776,
                   "right": 3552
                 }
-              }
+              },
+              "linked": [
+                "08",
+                "09"
+              ]
             },
             "09": {
               "name": "Hanging Zippers",
@@ -2499,7 +2730,11 @@
                   "bottom": -1960,
                   "right": 3816
                 }
-              }
+              },
+              "linked": [
+                "08b",
+                "10"
+              ]
             },
             "end": {
               "name": "Cassette room",
@@ -2541,7 +2776,10 @@
                   "bottom": -3152,
                   "right": 5144
                 }
-              }
+              },
+              "linked": [
+                "11"
+              ]
             }
           },
           "roomCount": 16,
@@ -2630,7 +2868,10 @@
                   "bottom": 96,
                   "right": 528
                 }
-              }
+              },
+              "linked": [
+                "01"
+              ]
             },
             "01": {
               "name": "Open space",
@@ -2666,7 +2907,11 @@
                   "bottom": 96,
                   "right": 1472
                 }
-              }
+              },
+              "linked": [
+                "00",
+                "02"
+              ]
             },
             "02": {
               "name": "Heart room",
@@ -2708,7 +2953,10 @@
                   "bottom": 72,
                   "right": 2616
                 }
-              }
+              },
+              "linked": [
+                "01"
+              ]
             }
           },
           "roomCount": 3,
@@ -2896,7 +3144,12 @@
                   "bottom": 184,
                   "right": 640
                 }
-              }
+              },
+              "linked": [
+                "start",
+                "1",
+                "3x"
+              ]
             },
             "1": {
               "name": "Shaft entrance",
@@ -2948,7 +3201,10 @@
                   "bottom": 184,
                   "right": 960
                 }
-              }
+              },
+              "linked": [
+                "0"
+              ]
             },
             "2": {
               "name": "Escape room",
@@ -2988,7 +3244,11 @@
                   "bottom": 184,
                   "right": 1344
                 }
-              }
+              },
+              "linked": [
+                "10",
+                "11"
+              ]
             },
             "3": {
               "name": "Part of you",
@@ -3020,7 +3280,11 @@
                   "bottom": -336,
                   "right": 640
                 }
-              }
+              },
+              "linked": [
+                "3x",
+                "4"
+              ]
             },
             "4": {
               "name": "Case and berry",
@@ -3060,7 +3324,11 @@
                   "bottom": -520,
                   "right": 640
                 }
-              }
+              },
+              "linked": [
+                "3",
+                "5"
+              ]
             },
             "5": {
               "name": "Chase and berry tunnel",
@@ -3100,7 +3368,11 @@
                   "bottom": -704,
                   "right": 640
                 }
-              }
+              },
+              "linked": [
+                "4",
+                "6"
+              ]
             },
             "6": {
               "name": "Chase and switch",
@@ -3132,7 +3404,11 @@
                   "bottom": -888,
                   "right": 640
                 }
-              }
+              },
+              "linked": [
+                "5",
+                "7"
+              ]
             },
             "7": {
               "name": "Chase and switches",
@@ -3164,7 +3440,10 @@
                   "bottom": -1072,
                   "right": 656
                 }
-              }
+              },
+              "linked": [
+                "8"
+              ]
             },
             "8": {
               "name": "Chase and spring",
@@ -3204,7 +3483,11 @@
                   "bottom": -1256,
                   "right": 640
                 }
-              }
+              },
+              "linked": [
+                "7",
+                "9"
+              ]
             },
             "9": {
               "name": "Chase and ice",
@@ -3244,7 +3527,12 @@
                   "bottom": -1256,
                   "right": 1376
                 }
-              }
+              },
+              "linked": [
+                "8",
+                "9b",
+                "10"
+              ]
             },
             "10": {
               "name": "Chase downwards",
@@ -3284,7 +3572,11 @@
                   "bottom": -296,
                   "right": 1216
                 }
-              }
+              },
+              "linked": [
+                "9",
+                "2"
+              ]
             },
             "11": {
               "name": "Dreaming of awake I",
@@ -3320,7 +3612,11 @@
                   "bottom": 184,
                   "right": 1776
                 }
-              }
+              },
+              "linked": [
+                "2",
+                "12b"
+              ]
             },
             "12": {
               "name": "Dreaming of awake 3",
@@ -3356,7 +3652,11 @@
                   "bottom": 184,
                   "right": 2832
                 }
-              }
+              },
+              "linked": [
+                "12b",
+                "13"
+              ]
             },
             "13": {
               "name": "Unknown caller",
@@ -3388,7 +3688,10 @@
                   "bottom": 184,
                   "right": 3152
                 }
-              }
+              },
+              "linked": [
+                "12"
+              ]
             },
             "12b": {
               "name": "Dreaming of awake II",
@@ -3432,7 +3735,13 @@
                   "bottom": 184,
                   "right": 2368
                 }
-              }
+              },
+              "linked": [
+                "11",
+                "12c",
+                "12d",
+                "12"
+              ]
             },
             "12c": {
               "name": "High dream berry",
@@ -3472,7 +3781,10 @@
                   "bottom": 0,
                   "right": 2336
                 }
-              }
+              },
+              "linked": [
+                "12b"
+              ]
             },
             "12d": {
               "name": "Low dream berry",
@@ -3512,7 +3824,10 @@
                   "bottom": 368,
                   "right": 2488
                 }
-              }
+              },
+              "linked": [
+                "12b"
+              ]
             },
             "3x": {
               "name": "Dream puzzle",
@@ -3548,7 +3863,11 @@
                   "bottom": -152,
                   "right": 640
                 }
-              }
+              },
+              "linked": [
+                "0",
+                "3"
+              ]
             },
             "9b": {
               "name": "Berry and peace",
@@ -3588,7 +3907,10 @@
                   "bottom": -1576,
                   "right": 976
                 }
-              }
+              },
+              "linked": [
+                "9"
+              ]
             },
             "d0": {
               "name": "Shaft",
@@ -3656,7 +3978,16 @@
                   "bottom": 856,
                   "right": 960
                 }
-              }
+              },
+              "linked": [
+                "1",
+                "d1",
+                "d6",
+                "d9",
+                "d7",
+                "d2",
+                "d4"
+              ]
             },
             "d1": {
               "name": "Seed puzzle",
@@ -3704,7 +4035,11 @@
                   "bottom": 552,
                   "right": 640
                 }
-              }
+              },
+              "linked": [
+                "d6",
+                "d0"
+              ]
             },
             "d2": {
               "name": "Dream blocks intro",
@@ -3758,7 +4093,12 @@
                   "bottom": 552,
                   "right": 1600
                 }
-              }
+              },
+              "linked": [
+                "d3",
+                "d4",
+                "d0"
+              ]
             },
             "d3": {
               "name": "Mirror room",
@@ -3806,7 +4146,11 @@
                   "bottom": 824,
                   "right": 1920
                 }
-              }
+              },
+              "linked": [
+                "d8",
+                "d2"
+              ]
             },
             "d4": {
               "name": "Zipper dream berry",
@@ -3850,7 +4194,12 @@
                   "bottom": 368,
                   "right": 1280
                 }
-              }
+              },
+              "linked": [
+                "d0",
+                "d2",
+                "d5"
+              ]
             },
             "d5": {
               "name": "Dream column berry",
@@ -3890,7 +4239,10 @@
                   "bottom": 368,
                   "right": 1632
                 }
-              }
+              },
+              "linked": [
+                "d4"
+              ]
             },
             "d6": {
               "name": "Lower left berry",
@@ -3934,7 +4286,11 @@
                   "bottom": 736,
                   "right": 640
                 }
-              }
+              },
+              "linked": [
+                "d0",
+                "d1"
+              ]
             },
             "d7": {
               "name": "Mirror path I",
@@ -3970,7 +4326,11 @@
                   "bottom": 736,
                   "right": 1280
                 }
-              }
+              },
+              "linked": [
+                "d0",
+                "d8"
+              ]
             },
             "d8": {
               "name": "Mirror path II",
@@ -4010,7 +4370,11 @@
                   "bottom": 736,
                   "right": 1600
                 }
-              }
+              },
+              "linked": [
+                "d7",
+                "d3"
+              ]
             },
             "d9": {
               "name": "Cassette room",
@@ -4048,7 +4412,10 @@
                   "bottom": 1040,
                   "right": 1200
                 }
-              }
+              },
+              "linked": [
+                "d0"
+              ]
             },
             "end_0": {
               "name": "Awake monumnet",
@@ -4084,7 +4451,11 @@
                   "bottom": 1912,
                   "right": 224
                 }
-              }
+              },
+              "linked": [
+                "end_s0",
+                "end_s1"
+              ]
             },
             "end_1": {
               "name": "Tunnel and climb",
@@ -4124,7 +4495,12 @@
                   "bottom": 1912,
                   "right": 584
                 }
-              }
+              },
+              "linked": [
+                "end_0",
+                "end_s0",
+                "end_2"
+              ]
             },
             "end_2": {
               "name": "By the fire",
@@ -4168,7 +4544,11 @@
                   "bottom": 1912,
                   "right": 904
                 }
-              }
+              },
+              "linked": [
+                "end_1",
+                "end_3"
+              ]
             },
             "end_3": {
               "name": "Venture into night",
@@ -4208,7 +4588,11 @@
                   "bottom": 1912,
                   "right": 1288
                 }
-              }
+              },
+              "linked": [
+                "end_2",
+                "end_4"
+              ]
             },
             "end_3b": {
               "name": "Springs",
@@ -4248,7 +4632,12 @@
                   "bottom": 1912,
                   "right": 2312
                 }
-              }
+              },
+              "linked": [
+                "end_4",
+                "end_3cb",
+                "end_5"
+              ]
             },
             "end_3c": {
               "name": "Crumbling winged berry",
@@ -4288,7 +4677,10 @@
                   "bottom": 1544,
                   "right": 2280
                 }
-              }
+              },
+              "linked": [
+                "end_3cb"
+              ]
             },
             "end_3cb": {
               "name": "Accending shaft",
@@ -4324,7 +4716,11 @@
                   "bottom": 1728,
                   "right": 2280
                 }
-              }
+              },
+              "linked": [
+                "end_3b",
+                "end_3c"
+              ]
             },
             "end_4": {
               "name": "Empty",
@@ -4360,7 +4756,11 @@
                   "bottom": 1912,
                   "right": 1720
                 }
-              }
+              },
+              "linked": [
+                "end_3",
+                "end_3b"
+              ]
             },
             "end_5": {
               "name": "Emptier",
@@ -4396,7 +4796,11 @@
                   "bottom": 1912,
                   "right": 2776
                 }
-              }
+              },
+              "linked": [
+                "end_3b",
+                "end_6"
+              ]
             },
             "end_6": {
               "name": "Calling family",
@@ -4428,7 +4832,10 @@
                   "bottom": 1912,
                   "right": 3096
                 }
-              }
+              },
+              "linked": [
+                "end_5"
+              ]
             },
             "end_s0": {
               "name": "Climbing the ruins",
@@ -4464,7 +4871,12 @@
                   "bottom": 1568,
                   "right": 584
                 }
-              }
+              },
+              "linked": [
+                "end_0",
+                "end_s1",
+                "end_1"
+              ]
             },
             "end_s1": {
               "name": "My heart is a fortress",
@@ -4502,7 +4914,10 @@
                   "bottom": 1208,
                   "right": 584
                 }
-              }
+              },
+              "linked": [
+                "end_0"
+              ]
             },
             "s0": {
               "name": "Sheer wall",
@@ -4534,7 +4949,11 @@
                   "bottom": -64,
                   "right": 280
                 }
-              }
+              },
+              "linked": [
+                "start",
+                "s1"
+              ]
             },
             "s1": {
               "name": "Transition overhang",
@@ -4566,7 +4985,11 @@
                   "bottom": -248,
                   "right": 280
                 }
-              }
+              },
+              "linked": [
+                "s0",
+                "s2"
+              ]
             },
             "s2": {
               "name": "Heart room",
@@ -4604,7 +5027,10 @@
                   "bottom": -432,
                   "right": 280
                 }
-              }
+              },
+              "linked": [
+                "s1"
+              ]
             },
             "start": {
               "name": "Monument",
@@ -4646,7 +5072,11 @@
                   "bottom": 184,
                   "right": 280
                 }
-              }
+              },
+              "linked": [
+                "s0",
+                "0"
+              ]
             }
           },
           "roomCount": 45,
@@ -4785,7 +5215,11 @@
                   "bottom": -1896,
                   "right": 4672
                 }
-              }
+              },
+              "linked": [
+                "09",
+                "11"
+              ]
             },
             "11": {
               "name": "Dream puzzle 2",
@@ -4817,7 +5251,11 @@
                   "bottom": -2192,
                   "right": 4928
                 }
-              }
+              },
+              "linked": [
+                "10",
+                "end"
+              ]
             },
             "00": {
               "name": "One way dreams",
@@ -4853,7 +5291,11 @@
                   "bottom": 184,
                   "right": 688
                 }
-              }
+              },
+              "linked": [
+                "start",
+                "01"
+              ]
             },
             "01": {
               "name": "Dream jump tutorial",
@@ -4885,7 +5327,11 @@
                   "bottom": 120,
                   "right": 1024
                 }
-              }
+              },
+              "linked": [
+                "00",
+                "01b"
+              ]
             },
             "01b": {
               "name": "Dream jumps I",
@@ -4917,7 +5363,11 @@
                   "bottom": -64,
                   "right": 1408
                 }
-              }
+              },
+              "linked": [
+                "01",
+                "02b"
+              ]
             },
             "02": {
               "name": "Dream jumps III",
@@ -4949,7 +5399,11 @@
                   "bottom": -432,
                   "right": 2856
                 }
-              }
+              },
+              "linked": [
+                "02b",
+                "03"
+              ]
             },
             "02b": {
               "name": "Dream jumps II",
@@ -4981,7 +5435,11 @@
                   "bottom": -248,
                   "right": 2000
                 }
-              }
+              },
+              "linked": [
+                "01b",
+                "02"
+              ]
             },
             "03": {
               "name": "Three keys",
@@ -5013,7 +5471,11 @@
                   "bottom": -616,
                   "right": 2864
                 }
-              }
+              },
+              "linked": [
+                "02",
+                "04"
+              ]
             },
             "04": {
               "name": "Over and under",
@@ -5045,7 +5507,11 @@
                   "bottom": -800,
                   "right": 3344
                 }
-              }
+              },
+              "linked": [
+                "03",
+                "05"
+              ]
             },
             "05": {
               "name": "Spike maze",
@@ -5077,7 +5543,11 @@
                   "bottom": -992,
                   "right": 2840
                 }
-              }
+              },
+              "linked": [
+                "04",
+                "06"
+              ]
             },
             "06": {
               "name": "Combination lock",
@@ -5109,7 +5579,11 @@
                   "bottom": -1192,
                   "right": 3112
                 }
-              }
+              },
+              "linked": [
+                "05",
+                "07"
+              ]
             },
             "07": {
               "name": "Mickey Mouse",
@@ -5141,7 +5615,11 @@
                   "bottom": -1192,
                   "right": 3432
                 }
-              }
+              },
+              "linked": [
+                "06",
+                "08b"
+              ]
             },
             "08": {
               "name": "One way dream tunnel",
@@ -5173,7 +5651,11 @@
                   "bottom": -1696,
                   "right": 3800
                 }
-              }
+              },
+              "linked": [
+                "08b",
+                "09"
+              ]
             },
             "08b": {
               "name": "Spikes, Springs and Dreams",
@@ -5205,7 +5687,11 @@
                   "bottom": -1512,
                   "right": 3544
                 }
-              }
+              },
+              "linked": [
+                "07",
+                "08"
+              ]
             },
             "09": {
               "name": "Up and down",
@@ -5241,7 +5727,11 @@
                   "bottom": -1896,
                   "right": 4352
                 }
-              }
+              },
+              "linked": [
+                "08",
+                "10"
+              ]
             },
             "end": {
               "name": "Cassette room",
@@ -5283,7 +5773,10 @@
                   "bottom": -2736,
                   "right": 5144
                 }
-              }
+              },
+              "linked": [
+                "11"
+              ]
             },
             "start": {
               "name": "Monument",
@@ -5325,7 +5818,10 @@
                   "bottom": 184,
                   "right": 312
                 }
-              }
+              },
+              "linked": [
+                "00"
+              ]
             }
           },
           "roomCount": 17,
@@ -5414,7 +5910,10 @@
                   "bottom": 104,
                   "right": 152
                 }
-              }
+              },
+              "linked": [
+                "01"
+              ]
             },
             "01": {
               "name": "Badeline switches",
@@ -5446,7 +5945,11 @@
                   "bottom": 24,
                   "right": 568
                 }
-              }
+              },
+              "linked": [
+                "00",
+                "02"
+              ]
             },
             "02": {
               "name": "Heart room",
@@ -5484,7 +5987,10 @@
                   "bottom": 80,
                   "right": 2560
                 }
-              }
+              },
+              "linked": [
+                "01"
+              ]
             }
           },
           "roomCount": 3,
@@ -5715,7 +6221,11 @@
                   "bottom": 56,
                   "right": 2416
                 }
-              }
+              },
+              "linked": [
+                "0x-a",
+                "02-a"
+              ]
             },
             "00-b": {
               "name": "Dust berry",
@@ -5767,7 +6277,12 @@
                   "bottom": -128,
                   "right": 2096
                 }
-              }
+              },
+              "linked": [
+                "01-b",
+                "00-c",
+                "0x-b"
+              ]
             },
             "00-c": {
               "name": "Cassette teaser",
@@ -5803,7 +6318,10 @@
                   "bottom": -312,
                   "right": 2096
                 }
-              }
+              },
+              "linked": [
+                "00-b"
+              ]
             },
             "00-d": {
               "name": "Presidential Suite",
@@ -5871,7 +6389,11 @@
                   "bottom": -128,
                   "right": 2416
                 }
-              }
+              },
+              "linked": [
+                "02-b",
+                "00-b"
+              ]
             },
             "01-c": {
               "name": "Cassette room",
@@ -5953,7 +6475,12 @@
                   "bottom": 56,
                   "right": 2736
                 }
-              }
+              },
+              "linked": [
+                "00-a",
+                "02-b",
+                "03-a"
+              ]
             },
             "02-b": {
               "name": "Dust bunnies and key",
@@ -5993,7 +6520,11 @@
                   "bottom": -128,
                   "right": 2736
                 }
-              }
+              },
+              "linked": [
+                "02-a",
+                "01-b"
+              ]
             },
             "02-c": {
               "name": "Quad hyper",
@@ -6105,7 +6636,12 @@
                   "bottom": 56,
                   "right": 3376
                 }
-              }
+              },
+              "linked": [
+                "02-a",
+                "04-b",
+                "05-a"
+              ]
             },
             "03-b": {
               "name": "Tight berries",
@@ -6195,7 +6731,10 @@
                   "bottom": -128,
                   "right": 3376
                 }
-              }
+              },
+              "linked": [
+                "03-a"
+              ]
             },
             "04-c": {
               "name": "Lock room",
@@ -6323,7 +6862,11 @@
                   "bottom": 56,
                   "right": 3696
                 }
-              }
+              },
+              "linked": [
+                "03-a",
+                "06-a"
+              ]
             },
             "05-c": {
               "name": "Berry loop",
@@ -6363,7 +6906,10 @@
                   "bottom": -128,
                   "right": 3696
                 }
-              }
+              },
+              "linked": [
+                "05-c"
+              ]
             },
             "06-a": {
               "name": "Winged berry",
@@ -6407,7 +6953,11 @@
                   "bottom": 56,
                   "right": 4016
                 }
-              }
+              },
+              "linked": [
+                "05-a",
+                "07-a"
+              ]
             },
             "06-b": {
               "name": "Circling dust platforms",
@@ -6447,7 +6997,11 @@
                   "bottom": -128,
                   "right": 4016
                 }
-              }
+              },
+              "linked": [
+                "07-b",
+                "06-c"
+              ]
             },
             "06-c": {
               "name": "Spiked moss walls",
@@ -6499,7 +7053,13 @@
                   "bottom": -312,
                   "right": 4336
                 }
-              }
+              },
+              "linked": [
+                "06-b",
+                "05-c",
+                "07-b",
+                "08-c"
+              ]
             },
             "06-d": {
               "name": "Dusty room",
@@ -6579,7 +7139,12 @@
                   "bottom": 56,
                   "right": 4336
                 }
-              }
+              },
+              "linked": [
+                "06-a",
+                "07-b",
+                "08-a"
+              ]
             },
             "07-b": {
               "name": "Key room",
@@ -6631,7 +7196,13 @@
                   "bottom": -128,
                   "right": 4336
                 }
-              }
+              },
+              "linked": [
+                "07-a",
+                "06-b",
+                "06-c",
+                "08-b"
+              ]
             },
             "08-a": {
               "name": "Book bridge",
@@ -6703,7 +7274,11 @@
                   "bottom": -128,
                   "right": 4656
                 }
-              }
+              },
+              "linked": [
+                "08-c",
+                "07-b"
+              ]
             },
             "08-c": {
               "name": "Locked spring platforms",
@@ -6739,7 +7314,11 @@
                   "bottom": -312,
                   "right": 4656
                 }
-              }
+              },
+              "linked": [
+                "06-c",
+                "08-b"
+              ]
             },
             "08-d": {
               "name": "Switch columns",
@@ -6939,7 +7518,11 @@
                   "bottom": 56,
                   "right": 1776
                 }
-              }
+              },
+              "linked": [
+                "s3",
+                "00-a"
+              ]
             },
             "0x-b": {
               "name": "Berry balcony interior",
@@ -6979,7 +7562,11 @@
                   "bottom": -128,
                   "right": 1776
                 }
-              }
+              },
+              "linked": [
+                "00-b",
+                "s3"
+              ]
             },
             "10-c": {
               "name": "Books I",
@@ -8109,7 +8696,10 @@
                   "bottom": 184,
                   "right": 200
                 }
-              }
+              },
+              "linked": [
+                "s1"
+              ]
             },
             "s1": {
               "name": "Outside II",
@@ -8149,7 +8739,11 @@
                   "bottom": 184,
                   "right": 600
                 }
-              }
+              },
+              "linked": [
+                "s0",
+                "s2"
+              ]
             },
             "s2": {
               "name": "Outside berries",
@@ -8203,7 +8797,11 @@
                   "bottom": 184,
                   "right": 1104
                 }
-              }
+              },
+              "linked": [
+                "s1",
+                "s3"
+              ]
             },
             "s3": {
               "name": "Outside key",
@@ -8251,7 +8849,12 @@
                   "bottom": 168,
                   "right": 1456
                 }
-              }
+              },
+              "linked": [
+                "s2",
+                "0x-a",
+                "0x-b"
+              ]
             }
           },
           "roomCount": 65,
@@ -8424,7 +9027,11 @@
                   "bottom": -304,
                   "right": 4376
                 }
-              }
+              },
+              "linked": [
+                "09",
+                "11"
+              ]
             },
             "11": {
               "name": "Dusty walls I",
@@ -8460,7 +9067,11 @@
                   "bottom": -296,
                   "right": 4808
                 }
-              }
+              },
+              "linked": [
+                "10",
+                "13"
+              ]
             },
             "12": {
               "name": "Dusty springs",
@@ -8496,7 +9107,11 @@
                   "bottom": -320,
                   "right": 7232
                 }
-              }
+              },
+              "linked": [
+                "15",
+                "16"
+              ]
             },
             "13": {
               "name": "Outside dust pillars",
@@ -8532,7 +9147,11 @@
                   "bottom": -376,
                   "right": 5432
                 }
-              }
+              },
+              "linked": [
+                "11",
+                "14"
+              ]
             },
             "14": {
               "name": "Dusty walls II",
@@ -8568,7 +9187,11 @@
                   "bottom": -364,
                   "right": 5864
                 }
-              }
+              },
+              "linked": [
+                "13",
+                "15"
+              ]
             },
             "15": {
               "name": "Dust Elevator",
@@ -8600,7 +9223,11 @@
                   "bottom": -336,
                   "right": 6184
                 }
-              }
+              },
+              "linked": [
+                "14",
+                "12"
+              ]
             },
             "16": {
               "name": "Chimney",
@@ -8632,7 +9259,11 @@
                   "bottom": -320,
                   "right": 7552
                 }
-              }
+              },
+              "linked": [
+                "12",
+                "17"
+              ]
             },
             "17": {
               "name": "Oshiro returns",
@@ -8664,7 +9295,11 @@
                   "bottom": -504,
                   "right": 7896
                 }
-              }
+              },
+              "linked": [
+                "16",
+                "18"
+              ]
             },
             "18": {
               "name": "Ground dashing",
@@ -8696,7 +9331,11 @@
                   "bottom": -504,
                   "right": 8664
                 }
-              }
+              },
+              "linked": [
+                "17",
+                "19"
+              ]
             },
             "19": {
               "name": "Dust cave",
@@ -8728,7 +9367,11 @@
                   "bottom": -504,
                   "right": 9096
                 }
-              }
+              },
+              "linked": [
+                "18",
+                "21"
+              ]
             },
             "20": {
               "name": "Locked hatch",
@@ -8760,7 +9403,11 @@
                   "bottom": -504,
                   "right": 10448
                 }
-              }
+              },
+              "linked": [
+                "21",
+                "end"
+              ]
             },
             "21": {
               "name": "Dash crystal race",
@@ -8792,7 +9439,11 @@
                   "bottom": -504,
                   "right": 9872
                 }
-              }
+              },
+              "linked": [
+                "19",
+                "20"
+              ]
             },
             "00": {
               "name": "Mind the gap",
@@ -8834,7 +9485,10 @@
                   "bottom": 168,
                   "right": 296
                 }
-              }
+              },
+              "linked": [
+                "01"
+              ]
             },
             "01": {
               "name": "Jumps off fragments",
@@ -8870,7 +9524,11 @@
                   "bottom": 168,
                   "right": 816
                 }
-              }
+              },
+              "linked": [
+                "00",
+                "02"
+              ]
             },
             "02": {
               "name": "Dusty crates",
@@ -8906,7 +9564,11 @@
                   "bottom": 144,
                   "right": 1576
                 }
-              }
+              },
+              "linked": [
+                "01",
+                "03"
+              ]
             },
             "03": {
               "name": "Wall dust cycle",
@@ -8942,7 +9604,11 @@
                   "bottom": 144,
                   "right": 1904
                 }
-              }
+              },
+              "linked": [
+                "02",
+                "04"
+              ]
             },
             "04": {
               "name": "Elephant room",
@@ -8978,7 +9644,11 @@
                   "bottom": 144,
                   "right": 2232
                 }
-              }
+              },
+              "linked": [
+                "03",
+                "05"
+              ]
             },
             "05": {
               "name": "Three switch spring",
@@ -9014,7 +9684,11 @@
                   "bottom": 144,
                   "right": 2552
                 }
-              }
+              },
+              "linked": [
+                "04",
+                "06"
+              ]
             },
             "06": {
               "name": "Dusty platforms",
@@ -9050,7 +9724,11 @@
                   "bottom": 144,
                   "right": 3016
                 }
-              }
+              },
+              "linked": [
+                "05",
+                "07"
+              ]
             },
             "07": {
               "name": "Stamina room",
@@ -9086,7 +9764,11 @@
                   "bottom": 144,
                   "right": 3336
                 }
-              }
+              },
+              "linked": [
+                "06",
+                "08"
+              ]
             },
             "08": {
               "name": "Towel room",
@@ -9122,7 +9804,11 @@
                   "bottom": 112,
                   "right": 3656
                 }
-              }
+              },
+              "linked": [
+                "07",
+                "09"
+              ]
             },
             "09": {
               "name": "Flooded laundry",
@@ -9158,7 +9844,11 @@
                   "bottom": -256,
                   "right": 4056
                 }
-              }
+              },
+              "linked": [
+                "08",
+                "10"
+              ]
             },
             "back": {
               "name": "Birds secret",
@@ -9232,7 +9922,10 @@
                   "bottom": -320,
                   "right": 10912
                 }
-              }
+              },
+              "linked": [
+                "20"
+              ]
             }
           },
           "roomCount": 24,
@@ -9317,7 +10010,10 @@
                   "bottom": 72,
                   "right": 272
                 }
-              }
+              },
+              "linked": [
+                "01"
+              ]
             },
             "01": {
               "name": "Platforms",
@@ -9353,7 +10049,11 @@
                   "bottom": -112,
                   "right": 504
                 }
-              }
+              },
+              "linked": [
+                "00",
+                "02"
+              ]
             },
             "02": {
               "name": "Heart room",
@@ -9395,7 +10095,10 @@
                   "bottom": -216,
                   "right": 2080
                 }
-              }
+              },
+              "linked": [
+                "01"
+              ]
             }
           },
           "roomCount": 3,
@@ -11694,7 +12397,10 @@
                   "bottom": 128,
                   "right": 448
                 }
-              }
+              },
+              "linked": [
+                "a-01"
+              ]
             },
             "a-01": {
               "name": "Platforms & crystals",
@@ -11730,7 +12436,11 @@
                   "bottom": 32,
                   "right": 1072
                 }
-              }
+              },
+              "linked": [
+                "a-00",
+                "a-02"
+              ]
             },
             "a-02": {
               "name": "Stamina puzzle",
@@ -11766,7 +12476,11 @@
                   "bottom": -64,
                   "right": 1576
                 }
-              }
+              },
+              "linked": [
+                "a-01",
+                "a-03"
+              ]
             },
             "a-03": {
               "name": "Autoscroller slots",
@@ -11802,7 +12516,11 @@
                   "bottom": -96,
                   "right": 2720
                 }
-              }
+              },
+              "linked": [
+                "a-02",
+                "a-04"
+              ]
             },
             "a-04": {
               "name": "Tallscroller",
@@ -11838,7 +12556,11 @@
                   "bottom": -112,
                   "right": 3264
                 }
-              }
+              },
+              "linked": [
+                "a-03",
+                "b-00"
+              ]
             },
             "b-00": {
               "name": "Crumbling headwind",
@@ -11874,7 +12596,11 @@
                   "bottom": -192,
                   "right": 3688
                 }
-              }
+              },
+              "linked": [
+                "a-04",
+                "b-01"
+              ]
             },
             "b-01": {
               "name": "Tailwind bubbles",
@@ -11910,7 +12636,11 @@
                   "bottom": -296,
                   "right": 4288
                 }
-              }
+              },
+              "linked": [
+                "b-00",
+                "b-02"
+              ]
             },
             "b-02": {
               "name": "Scrollershaft",
@@ -11946,7 +12676,11 @@
                   "bottom": -496,
                   "right": 4392
                 }
-              }
+              },
+              "linked": [
+                "b-01",
+                "b-03"
+              ]
             },
             "b-03": {
               "name": "Tailwind switches",
@@ -11978,7 +12712,11 @@
                   "bottom": -1400,
                   "right": 4768
                 }
-              }
+              },
+              "linked": [
+                "b-02",
+                "b-04"
+              ]
             },
             "b-04": {
               "name": "Headwind & tiny blocks",
@@ -12014,7 +12752,11 @@
                   "bottom": -1584,
                   "right": 5232
                 }
-              }
+              },
+              "linked": [
+                "b-03",
+                "c-00"
+              ]
             },
             "c-00": {
               "name": "Tailwind & stamina",
@@ -12050,7 +12792,11 @@
                   "bottom": -1704,
                   "right": 6200
                 }
-              }
+              },
+              "linked": [
+                "b-04",
+                "c-01"
+              ]
             },
             "c-01": {
               "name": "Crystal platforms",
@@ -12086,7 +12832,11 @@
                   "bottom": -1720,
                   "right": 6920
                 }
-              }
+              },
+              "linked": [
+                "c-00",
+                "c-02"
+              ]
             },
             "c-02": {
               "name": "Crystal tri-scroller",
@@ -12122,7 +12872,11 @@
                   "bottom": -1720,
                   "right": 7880
                 }
-              }
+              },
+              "linked": [
+                "c-01",
+                "c-03"
+              ]
             },
             "c-03": {
               "name": "Scroller ascent race",
@@ -12154,7 +12908,11 @@
                   "bottom": -1704,
                   "right": 8200
                 }
-              }
+              },
+              "linked": [
+                "c-02",
+                "c-04"
+              ]
             },
             "c-04": {
               "name": "Snaking crystals",
@@ -12190,7 +12948,11 @@
                   "bottom": -2744,
                   "right": 8632
                 }
-              }
+              },
+              "linked": [
+                "c-03",
+                "d-00"
+              ]
             },
             "d-00": {
               "name": "Alternating wind",
@@ -12226,7 +12988,11 @@
                   "bottom": -2704,
                   "right": 9528
                 }
-              }
+              },
+              "linked": [
+                "c-04",
+                "d-01"
+              ]
             },
             "d-01": {
               "name": "Cloud hopping",
@@ -12262,7 +13028,11 @@
                   "bottom": -2720,
                   "right": 10520
                 }
-              }
+              },
+              "linked": [
+                "d-00",
+                "d-02"
+              ]
             },
             "d-02": {
               "name": "Switches and bubbles",
@@ -12298,7 +13068,11 @@
                   "bottom": -2736,
                   "right": 11248
                 }
-              }
+              },
+              "linked": [
+                "d-01",
+                "d-03"
+              ]
             },
             "d-03": {
               "name": "Long tailwind",
@@ -12334,7 +13108,11 @@
                   "bottom": -2752,
                   "right": 13120
                 }
-              }
+              },
+              "linked": [
+                "d-02",
+                "end"
+              ]
             },
             "end": {
               "name": "Cassette room",
@@ -12372,7 +13150,10 @@
                   "bottom": -2768,
                   "right": 13664
                 }
-              }
+              },
+              "linked": [
+                "d-03"
+              ]
             }
           },
           "roomCount": 20,
@@ -12461,7 +13242,10 @@
                   "bottom": 48,
                   "right": 280
                 }
-              }
+              },
+              "linked": [
+                "01"
+              ]
             },
             "01": {
               "name": "Vertical scroller",
@@ -12497,7 +13281,11 @@
                   "bottom": 24,
                   "right": 600
                 }
-              }
+              },
+              "linked": [
+                "00",
+                "02"
+              ]
             },
             "02": {
               "name": "Heart room",
@@ -12539,7 +13327,10 @@
                   "bottom": -376,
                   "right": 3168
                 }
-              }
+              },
+              "linked": [
+                "01"
+              ]
             }
           },
           "roomCount": 3,
@@ -17291,7 +18082,10 @@
                   "bottom": 64,
                   "right": 304
                 }
-              }
+              },
+              "linked": [
+                "01"
+              ]
             },
             "01": {
               "name": "Block fling",
@@ -17327,7 +18121,11 @@
                   "bottom": 24,
                   "right": 624
                 }
-              }
+              },
+              "linked": [
+                "00",
+                "02"
+              ]
             },
             "02": {
               "name": "Heart room",
@@ -17369,7 +18167,10 @@
                   "bottom": 40,
                   "right": 2248
                 }
-              }
+              },
+              "linked": [
+                "01"
+              ]
             }
           },
           "roomCount": 3,
@@ -20068,7 +20869,10 @@
                   "bottom": 416,
                   "right": 96
                 }
-              }
+              },
+              "linked": [
+                "a-01"
+              ]
             },
             "a-01": {
               "name": "Feather tunnel",
@@ -20100,7 +20904,11 @@
                   "bottom": -120,
                   "right": 152
                 }
-              }
+              },
+              "linked": [
+                "a-00",
+                "a-02"
+              ]
             },
             "a-02": {
               "name": "Sketchy bumpers",
@@ -20132,7 +20940,11 @@
                   "bottom": -536,
                   "right": 184
                 }
-              }
+              },
+              "linked": [
+                "a-01",
+                "a-03"
+              ]
             },
             "a-03": {
               "name": "Kevin launch",
@@ -20168,7 +20980,11 @@
                   "bottom": -816,
                   "right": 720
                 }
-              }
+              },
+              "linked": [
+                "a-02",
+                "a-04"
+              ]
             },
             "a-04": {
               "name": "V bumper",
@@ -20204,7 +21020,11 @@
                   "bottom": -816,
                   "right": 1368
                 }
-              }
+              },
+              "linked": [
+                "a-03",
+                "a-05"
+              ]
             },
             "a-05": {
               "name": "Crumble blocks",
@@ -20240,7 +21060,11 @@
                   "bottom": -848,
                   "right": 2424
                 }
-              }
+              },
+              "linked": [
+                "a-04",
+                "a-06"
+              ]
             },
             "a-06": {
               "name": "Kevin switches",
@@ -20276,7 +21100,11 @@
                   "bottom": -904,
                   "right": 3568
                 }
-              }
+              },
+              "linked": [
+                "a-05",
+                "b-00"
+              ]
             },
             "b-00": {
               "name": "Haircut",
@@ -20308,7 +21136,11 @@
                   "bottom": -904,
                   "right": 4200
                 }
-              }
+              },
+              "linked": [
+                "a-06",
+                "b-01"
+              ]
             },
             "b-01": {
               "name": "Falling I - Crystals I",
@@ -20344,7 +21176,11 @@
                   "bottom": -48,
                   "right": 4384
                 }
-              }
+              },
+              "linked": [
+                "b-00",
+                "b-02"
+              ]
             },
             "b-02": {
               "name": "Falling II - Kevins",
@@ -20380,7 +21216,11 @@
                   "bottom": 672,
                   "right": 4704
                 }
-              }
+              },
+              "linked": [
+                "b-01",
+                "b-03"
+              ]
             },
             "b-03": {
               "name": "Falling III - Bumpers",
@@ -20416,7 +21256,11 @@
                   "bottom": 1288,
                   "right": 5024
                 }
-              }
+              },
+              "linked": [
+                "b-02",
+                "b-04"
+              ]
             },
             "b-04": {
               "name": "Falling IV - Crystals II",
@@ -20452,7 +21296,11 @@
                   "bottom": 1912,
                   "right": 5344
                 }
-              }
+              },
+              "linked": [
+                "b-03",
+                "b-05"
+              ]
             },
             "b-05": {
               "name": "Falling V - 2D Kevin",
@@ -20488,7 +21336,11 @@
                   "bottom": 2536,
                   "right": 5664
                 }
-              }
+              },
+              "linked": [
+                "b-04",
+                "b-06"
+              ]
             },
             "b-06": {
               "name": "Falling VI - Save dash",
@@ -20524,7 +21376,11 @@
                   "bottom": 3192,
                   "right": 5984
                 }
-              }
+              },
+              "linked": [
+                "b-05",
+                "b-07"
+              ]
             },
             "b-07": {
               "name": "Falling VII - Feather",
@@ -20560,7 +21416,11 @@
                   "bottom": 3816,
                   "right": 6304
                 }
-              }
+              },
+              "linked": [
+                "b-06",
+                "b-08"
+              ]
             },
             "b-08": {
               "name": "Falling VIII - Crystals III",
@@ -20596,7 +21456,11 @@
                   "bottom": 4544,
                   "right": 6624
                 }
-              }
+              },
+              "linked": [
+                "b-07",
+                "b-10"
+              ]
             },
             "b-10": {
               "name": "Haircut dashes",
@@ -20632,7 +21496,11 @@
                   "bottom": 4536,
                   "right": 7800
                 }
-              }
+              },
+              "linked": [
+                "b-08",
+                "c-00"
+              ]
             },
             "c-00": {
               "name": "Badeline",
@@ -20664,7 +21532,11 @@
                   "bottom": 4536,
                   "right": 8384
                 }
-              }
+              },
+              "linked": [
+                "b-10",
+                "c-01"
+              ]
             },
             "c-01": {
               "name": "Falling block jumps",
@@ -20696,7 +21568,11 @@
                   "bottom": 4592,
                   "right": 8968
                 }
-              }
+              },
+              "linked": [
+                "c-00",
+                "c-02"
+              ]
             },
             "c-02": {
               "name": "Three dash crystals",
@@ -20728,7 +21604,11 @@
                   "bottom": 4616,
                   "right": 9712
                 }
-              }
+              },
+              "linked": [
+                "c-01",
+                "c-03"
+              ]
             },
             "c-03": {
               "name": "Badeline and the seven keys",
@@ -20760,7 +21640,11 @@
                   "bottom": 4680,
                   "right": 10504
                 }
-              }
+              },
+              "linked": [
+                "c-02",
+                "c-04"
+              ]
             },
             "c-04": {
               "name": "Step off & downwards",
@@ -20792,7 +21676,11 @@
                   "bottom": 5016,
                   "right": 10880
                 }
-              }
+              },
+              "linked": [
+                "c-03",
+                "d-00"
+              ]
             },
             "d-00": {
               "name": "Kevin family",
@@ -20824,7 +21712,11 @@
                   "bottom": 5016,
                   "right": 12160
                 }
-              }
+              },
+              "linked": [
+                "c-04",
+                "d-01"
+              ]
             },
             "d-01": {
               "name": "Badeline returns",
@@ -20856,7 +21748,11 @@
                   "bottom": 4832,
                   "right": 12688
                 }
-              }
+              },
+              "linked": [
+                "d-00",
+                "d-02"
+              ]
             },
             "d-02": {
               "name": "Hold fire",
@@ -20888,7 +21784,11 @@
                   "bottom": 4928,
                   "right": 13408
                 }
-              }
+              },
+              "linked": [
+                "d-01",
+                "d-03"
+              ]
             },
             "d-03": {
               "name": "To the bottom",
@@ -20920,7 +21820,11 @@
                   "bottom": 5448,
                   "right": 13728
                 }
-              }
+              },
+              "linked": [
+                "d-02",
+                "d-04"
+              ]
             },
             "d-04": {
               "name": "Final feather",
@@ -20952,7 +21856,11 @@
                   "bottom": 5448,
                   "right": 15632
                 }
-              }
+              },
+              "linked": [
+                "d-03",
+                "d-05"
+              ]
             },
             "d-05": {
               "name": "Cassette room",
@@ -20990,7 +21898,10 @@
                   "bottom": 5448,
                   "right": 16736
                 }
-              }
+              },
+              "linked": [
+                "d-04"
+              ]
             }
           },
           "roomCount": 28,
@@ -21079,7 +21990,10 @@
                   "bottom": 96,
                   "right": 440
                 }
-              }
+              },
+              "linked": [
+                "01"
+              ]
             },
             "01": {
               "name": "Falling",
@@ -21115,7 +22029,11 @@
                   "bottom": 704,
                   "right": 760
                 }
-              }
+              },
+              "linked": [
+                "00",
+                "02"
+              ]
             },
             "02": {
               "name": "Heart room",
@@ -21157,7 +22075,10 @@
                   "bottom": 1224,
                   "right": 2544
                 }
-              }
+              },
+              "linked": [
+                "02"
+              ]
             }
           },
           "roomCount": 3,
@@ -25566,7 +26487,11 @@
                   "bottom": -168,
                   "right": 528
                 }
-              }
+              },
+              "linked": [
+                "a-00-intro",
+                "a-01"
+              ]
             },
             "a-01": {
               "name": "Wall springs",
@@ -25602,7 +26527,11 @@
                   "bottom": -264,
                   "right": 976
                 }
-              }
+              },
+              "linked": [
+                "a-00",
+                "a-02"
+              ]
             },
             "a-02": {
               "name": "Spring pillars",
@@ -25638,7 +26567,11 @@
                   "bottom": -288,
                   "right": 1920
                 }
-              }
+              },
+              "linked": [
+                "a-01",
+                "a-03"
+              ]
             },
             "a-03": {
               "name": "Orb room",
@@ -25670,7 +26603,11 @@
                   "bottom": -304,
                   "right": 2240
                 }
-              }
+              },
+              "linked": [
+                "a-02",
+                "b-00"
+              ]
             },
             "b-00": {
               "name": "Zipper ascent I",
@@ -25702,7 +26639,11 @@
                   "bottom": -1608,
                   "right": 2200
                 }
-              }
+              },
+              "linked": [
+                "a-03",
+                "b-01"
+              ]
             },
             "b-01": {
               "name": "Zipper ascent II",
@@ -25734,7 +26675,11 @@
                   "bottom": -2056,
                   "right": 2200
                 }
-              }
+              },
+              "linked": [
+                "b-00",
+                "b-02"
+              ]
             },
             "b-02": {
               "name": "Falling ice",
@@ -25774,7 +26719,11 @@
                   "bottom": -2792,
                   "right": 3408
                 }
-              }
+              },
+              "linked": [
+                "b-01",
+                "b-03"
+              ]
             },
             "b-03": {
               "name": "Orb room",
@@ -25806,7 +26755,11 @@
                   "bottom": -2872,
                   "right": 3728
                 }
-              }
+              },
+              "linked": [
+                "b-02",
+                "c-01"
+              ]
             },
             "c-00": {
               "name": "Dream blocks II",
@@ -25838,7 +26791,11 @@
                   "bottom": -4496,
                   "right": 5568
                 }
-              }
+              },
+              "linked": [
+                "c-01",
+                "c-02"
+              ]
             },
             "c-01": {
               "name": "Dream blocks I",
@@ -25874,7 +26831,11 @@
                   "bottom": -4312,
                   "right": 5040
                 }
-              }
+              },
+              "linked": [
+                "b-03",
+                "c-00"
+              ]
             },
             "c-02": {
               "name": "Keep off the ground",
@@ -25910,7 +26871,11 @@
                   "bottom": -4680,
                   "right": 6008
                 }
-              }
+              },
+              "linked": [
+                "c-00",
+                "c-03"
+              ]
             },
             "c-03": {
               "name": "Orb room",
@@ -25942,7 +26907,11 @@
                   "bottom": -4768,
                   "right": 6328
                 }
-              }
+              },
+              "linked": [
+                "c-02",
+                "d-00"
+              ]
             },
             "d-00": {
               "name": "Dust springs",
@@ -25982,7 +26951,11 @@
                   "bottom": -6600,
                   "right": 7024
                 }
-              }
+              },
+              "linked": [
+                "c-03",
+                "d-01"
+              ]
             },
             "d-01": {
               "name": "Dust cycles",
@@ -26022,7 +26995,11 @@
                   "bottom": -6616,
                   "right": 7640
                 }
-              }
+              },
+              "linked": [
+                "d-00",
+                "d-02"
+              ]
             },
             "d-02": {
               "name": "Dust switch",
@@ -26058,7 +27035,11 @@
                   "bottom": -6616,
                   "right": 8264
                 }
-              }
+              },
+              "linked": [
+                "d-01",
+                "d-03"
+              ]
             },
             "d-03": {
               "name": "Orb room",
@@ -26090,7 +27071,11 @@
                   "bottom": -6616,
                   "right": 8584
                 }
-              }
+              },
+              "linked": [
+                "d-02",
+                "e-00"
+              ]
             },
             "e-00": {
               "name": "Cloud hops",
@@ -26126,7 +27111,11 @@
                   "bottom": -7848,
                   "right": 9048
                 }
-              }
+              },
+              "linked": [
+                "d-03",
+                "e-01"
+              ]
             },
             "e-01": {
               "name": "Springscroller",
@@ -26158,7 +27147,11 @@
                   "bottom": -8032,
                   "right": 9864
                 }
-              }
+              },
+              "linked": [
+                "e-00",
+                "e-02"
+              ]
             },
             "e-02": {
               "name": "Headwind snowballs",
@@ -26194,7 +27187,11 @@
                   "bottom": -8216,
                   "right": 10472
                 }
-              }
+              },
+              "linked": [
+                "e-01",
+                "e-03"
+              ]
             },
             "e-03": {
               "name": "Orb room",
@@ -26226,7 +27223,11 @@
                   "bottom": -8224,
                   "right": 10792
                 }
-              }
+              },
+              "linked": [
+                "e-02",
+                "f-00"
+              ]
             },
             "f-00": {
               "name": "Dash block fling",
@@ -26266,7 +27267,11 @@
                   "bottom": -9360,
                   "right": 11160
                 }
-              }
+              },
+              "linked": [
+                "e-03",
+                "f-01"
+              ]
             },
             "f-01": {
               "name": "Bubble spike maze",
@@ -26302,7 +27307,11 @@
                   "bottom": -9432,
                   "right": 12072
                 }
-              }
+              },
+              "linked": [
+                "f-00",
+                "f-02"
+              ]
             },
             "f-02": {
               "name": "Crystals & dash blocks",
@@ -26338,7 +27347,11 @@
                   "bottom": -9440,
                   "right": 12688
                 }
-              }
+              },
+              "linked": [
+                "f-01",
+                "f-03"
+              ]
             },
             "f-03": {
               "name": "Orb room",
@@ -26370,7 +27383,11 @@
                   "bottom": -9592,
                   "right": 13008
                 }
-              }
+              },
+              "linked": [
+                "f-02",
+                "g-00"
+              ]
             },
             "g-00": {
               "name": "Flags 20 - 15",
@@ -26428,7 +27445,11 @@
                   "bottom": -11296,
                   "right": 13008
                 }
-              }
+              },
+              "linked": [
+                "g-00",
+                "g-01"
+              ]
             },
             "g-01": {
               "name": "Flags 14 - 9",
@@ -26486,7 +27507,11 @@
                   "bottom": -13600,
                   "right": 14424
                 }
-              }
+              },
+              "linked": [
+                "g-01",
+                "g-02"
+              ]
             },
             "g-02": {
               "name": "Flags 8 - 1",
@@ -26558,7 +27583,11 @@
                   "bottom": -14808,
                   "right": 14976
                 }
-              }
+              },
+              "linked": [
+                "g-02",
+                "g-03"
+              ]
             },
             "g-03": {
               "name": "Cassette",
@@ -26596,7 +27625,10 @@
                   "bottom": -17504,
                   "right": 14672
                 }
-              }
+              },
+              "linked": [
+                "g-02"
+              ]
             }
           },
           "roomCount": 29,
@@ -26681,7 +27713,10 @@
                   "bottom": 200,
                   "right": 632
                 }
-              }
+              },
+              "linked": [
+                "02"
+              ]
             },
             "02": {
               "name": "Springs",
@@ -26713,7 +27748,11 @@
                   "bottom": -624,
                   "right": 1192
                 }
-              }
+              },
+              "linked": [
+                "01",
+                "03"
+              ]
             },
             "03": {
               "name": "Heart room",
@@ -26763,7 +27802,11 @@
                   "bottom": -872,
                   "right": 4680
                 }
-              }
+              },
+              "linked": [
+                "02",
+                "04"
+              ]
             }
           },
           "roomCount": 3,
@@ -28690,7 +29733,10 @@
                   "bottom": 96,
                   "right": 144
                 }
-              }
+              },
+              "linked": [
+                "01"
+              ]
             },
             "01": {
               "name": "Heart gate",
@@ -28726,7 +29772,11 @@
                   "bottom": 96,
                   "right": 464
                 }
-              }
+              },
+              "linked": [
+                "00",
+                "a-00"
+              ]
             },
             "a-00": {
               "name": "Fireballs",
@@ -28768,7 +29818,11 @@
                   "bottom": 96,
                   "right": 1136
                 }
-              }
+              },
+              "linked": [
+                "01",
+                "a-01"
+              ]
             },
             "a-01": {
               "name": "Fire conveyors",
@@ -28804,7 +29858,11 @@
                   "bottom": 96,
                   "right": 1816
                 }
-              }
+              },
+              "linked": [
+                "a-00",
+                "a-02"
+              ]
             },
             "a-02": {
               "name": "Ice switch",
@@ -28836,7 +29894,11 @@
                   "bottom": 96,
                   "right": 2360
                 }
-              }
+              },
+              "linked": [
+                "a-01",
+                "a-03"
+              ]
             },
             "a-03": {
               "name": "Ice bouncing I",
@@ -28872,7 +29934,11 @@
                   "bottom": -88,
                   "right": 2576
                 }
-              }
+              },
+              "linked": [
+                "a-02",
+                "a-04"
+              ]
             },
             "a-04": {
               "name": "Ice blocks",
@@ -28908,7 +29974,11 @@
                   "bottom": -88,
                   "right": 3224
                 }
-              }
+              },
+              "linked": [
+                "a-03",
+                "a-05"
+              ]
             },
             "a-05": {
               "name": "Ice bumpers",
@@ -28940,7 +30010,11 @@
                   "bottom": -88,
                   "right": 3768
                 }
-              }
+              },
+              "linked": [
+                "a-04",
+                "b-00"
+              ]
             },
             "b-00": {
               "name": "Fire tunnel",
@@ -28976,7 +30050,11 @@
                   "bottom": -320,
                   "right": 3984
                 }
-              }
+              },
+              "linked": [
+                "a-05",
+                "b-01"
+              ]
             },
             "b-01": {
               "name": "Fire & ice segments",
@@ -29012,7 +30090,11 @@
                   "bottom": -320,
                   "right": 4856
                 }
-              }
+              },
+              "linked": [
+                "b-00",
+                "b-02"
+              ]
             },
             "b-02": {
               "name": "Ice bouncing II",
@@ -29048,7 +30130,11 @@
                   "bottom": -320,
                   "right": 5768
                 }
-              }
+              },
+              "linked": [
+                "b-01",
+                "b-03"
+              ]
             },
             "b-03": {
               "name": "Crystal conveyors",
@@ -29084,7 +30170,11 @@
                   "bottom": -416,
                   "right": 6776
                 }
-              }
+              },
+              "linked": [
+                "b-02",
+                "b-04"
+              ]
             },
             "b-04": {
               "name": "Fireball conveyors",
@@ -29120,7 +30210,11 @@
                   "bottom": -528,
                   "right": 7464
                 }
-              }
+              },
+              "linked": [
+                "b-03",
+                "b-05"
+              ]
             },
             "b-05": {
               "name": "Circling balls",
@@ -29156,7 +30250,11 @@
                   "bottom": -632,
                   "right": 8504
                 }
-              }
+              },
+              "linked": [
+                "b-04",
+                "c-01"
+              ]
             },
             "c-01": {
               "name": "Rising fire",
@@ -29188,7 +30286,11 @@
                   "bottom": -664,
                   "right": 8824
                 }
-              }
+              },
+              "linked": [
+                "b-05",
+                "c-02"
+              ]
             },
             "c-02": {
               "name": "Rising ice",
@@ -29220,7 +30322,11 @@
                   "bottom": -1304,
                   "right": 8824
                 }
-              }
+              },
+              "linked": [
+                "c-01",
+                "c-03"
+              ]
             },
             "c-03": {
               "name": "Wall conveyors",
@@ -29252,7 +30358,11 @@
                   "bottom": -1824,
                   "right": 8864
                 }
-              }
+              },
+              "linked": [
+                "c-02",
+                "c-04"
+              ]
             },
             "c-04": {
               "name": "Compendium",
@@ -29284,7 +30394,11 @@
                   "bottom": -2592,
                   "right": 8864
                 }
-              }
+              },
+              "linked": [
+                "c-03",
+                "c-05"
+              ]
             },
             "c-05": {
               "name": "Floor and ceiling",
@@ -29324,7 +30438,11 @@
                   "bottom": -4232,
                   "right": 9992
                 }
-              }
+              },
+              "linked": [
+                "c-04",
+                "c-06"
+              ]
             },
             "c-06": {
               "name": "Ball snake",
@@ -29360,7 +30478,11 @@
                   "bottom": -4232,
                   "right": 10744
                 }
-              }
+              },
+              "linked": [
+                "c-05",
+                "c-07"
+              ]
             },
             "c-07": {
               "name": "Jank blocks",
@@ -29396,7 +30518,11 @@
                   "bottom": -4248,
                   "right": 11816
                 }
-              }
+              },
+              "linked": [
+                "c-06",
+                "space"
+              ]
             },
             "c-08": {
               "name": "Conveyor switch",
@@ -29474,7 +30600,10 @@
                   "bottom": -4224,
                   "right": 13872
                 }
-              }
+              },
+              "linked": [
+                "c-07"
+              ]
             }
           },
           "roomCount": 23,
@@ -29564,7 +30693,11 @@
                   "bottom": 96,
                   "right": 808
                 }
-              }
+              },
+              "linked": [
+                "intro",
+                "01"
+              ]
             },
             "01": {
               "name": "Blocks and bumpers",
@@ -29600,7 +30733,11 @@
                   "bottom": 96,
                   "right": 1928
                 }
-              }
+              },
+              "linked": [
+                "00",
+                "02"
+              ]
             },
             "02": {
               "name": "Heart room",
@@ -29642,7 +30779,10 @@
                   "bottom": 96,
                   "right": 7200
                 }
-              }
+              },
+              "linked": [
+                "02"
+              ]
             },
             "intro": {
               "name": "Heart gate",
@@ -29678,7 +30818,10 @@
                   "bottom": 96,
                   "right": 176
                 }
-              }
+              },
+              "linked": [
+                "00"
+              ]
             }
           },
           "roomCount": 4,
