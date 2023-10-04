@@ -22342,13 +22342,38 @@
             {
               "name": "3000 M",
               "abbreviation": "3000M",
-              "roomCount": 5,
+              "roomCount": 30,
               "roomOrder": [
-                "g-00",
-                "g-00b",
-                "g-01",
-                "g-02",
-                "g-03"
+                "flag-30",
+                "flag-29",
+                "flag-28",
+                "flag-27",
+                "flag-26",
+                "flag-25",
+                "flag-24",
+                "flag-23",
+                "flag-22",
+                "flag-21",
+                "flag-20",
+                "flag-19",
+                "flag-18",
+                "flag-17",
+                "flag-16",
+                "flag-15",
+                "flag-14",
+                "flag-13",
+                "flag-12",
+                "flag-11",
+                "flag-10",
+                "flag-9",
+                "flag-8",
+                "flag-7",
+                "flag-6",
+                "flag-5",
+                "flag-4",
+                "flag-3",
+                "flag-2",
+                "flag-1"
               ],
               "canvas": {
                 "position": {
@@ -25879,365 +25904,128 @@
                 }
               }
             },
-            "g-00": {
-              "name": "Flags 30 - 29",
-              "checkpointNo": 6,
-              "defaultSpawn": {
-                "x": 424,
-                "y": 1824
-              },
-              "entities": {
-                "spawn": [
-                  {
-                    "name": "Flag 30",
-                    "x": 424,
-                    "y": 1824
-                  },
-                  {
-                    "name": "Flag 29",
-                    "x": 336,
-                    "y": 1224
-                  }
-                ]
-              },
-              "canvas": {
-                "position": {
-                  "x": 25176,
-                  "y": -15256
-                },
-                "size": {
-                  "width": 592,
-                  "height": 1840
-                },
-                "boundingBox": {
-                  "top": -15256,
-                  "left": 25176,
-                  "bottom": -13416,
-                  "right": 25768
-                }
-              }
+            "flag-30": {
+              "name": "Flag 30",
+              "checkpointNo": 6
             },
-            "g-00b": {
-              "name": "Flags 28 - 20",
-              "checkpointNo": 6,
-              "defaultSpawn": {
-                "x": 192,
-                "y": 3240
-              },
-              "entities": {
-                "spawn": [
-                  {
-                    "name": "Flag 28",
-                    "x": 192,
-                    "y": 3240
-                  },
-                  {
-                    "name": "Flag 27",
-                    "x": 216,
-                    "y": 2992
-                  },
-                  {
-                    "name": "Flag 26",
-                    "x": 128,
-                    "y": 2816
-                  },
-                  {
-                    "name": "Flag 25",
-                    "x": 568,
-                    "y": 2600
-                  },
-                  {
-                    "name": "Flag 24",
-                    "x": 424,
-                    "y": 2496
-                  },
-                  {
-                    "name": "Flag 23",
-                    "x": 392,
-                    "y": 2200
-                  },
-                  {
-                    "name": "Flag 22",
-                    "x": 552,
-                    "y": 2024
-                  },
-                  {
-                    "name": "Flag 21",
-                    "x": 224,
-                    "y": 1696
-                  },
-                  {
-                    "name": "Flag 20",
-                    "x": 600,
-                    "y": 1456
-                  },
-                  {
-                    "x": 344,
-                    "y": 680
-                  }
-                ],
-                "berry": [
-                  {
-                    "id": 37,
-                    "x": 328,
-                    "y": 2688,
-                    "checkpointId": 6
-                  },
-                  {
-                    "id": 114,
-                    "x": 424,
-                    "y": 1496,
-                    "checkpointId": 6
-                  },
-                  {
-                    "id": 127,
-                    "x": 344,
-                    "y": 2224,
-                    "checkpointId": 6
-                  }
-                ],
-                "heart": [
-                  {
-                    "x": 480,
-                    "y": 3088
-                  }
-                ]
-              },
-              "canvas": {
-                "position": {
-                  "x": 25256,
-                  "y": -18512
-                },
-                "size": {
-                  "width": 640,
-                  "height": 3256
-                },
-                "boundingBox": {
-                  "top": -18512,
-                  "left": 25256,
-                  "bottom": -15256,
-                  "right": 25896
-                }
-              }
+            "flag-29": {
+              "name": "Flag 29",
+              "checkpointNo": 6
             },
-            "g-01": {
-              "name": "Flags 19 - 7",
-              "checkpointNo": 6,
-              "defaultSpawn": {
-                "x": 568,
-                "y": 3232
-              },
-              "entities": {
-                "spawn": [
-                  {
-                    "name": "Flag 19",
-                    "x": 568,
-                    "y": 3232
-                  },
-                  {
-                    "name": "Flag 18",
-                    "x": 376,
-                    "y": 2928
-                  },
-                  {
-                    "name": "Flag 17",
-                    "x": 544,
-                    "y": 2816
-                  },
-                  {
-                    "name": "Flag 16",
-                    "x": 1056,
-                    "y": 2632
-                  },
-                  {
-                    "name": "Flag 15",
-                    "x": 944,
-                    "y": 2520
-                  },
-                  {
-                    "name": "Flag 14",
-                    "x": 1080,
-                    "y": 2400
-                  },
-                  {
-                    "name": "Flag 13",
-                    "x": 1696,
-                    "y": 2240
-                  },
-                  {
-                    "name": "Flag 12",
-                    "x": 2344,
-                    "y": 2080
-                  },
-                  {
-                    "name": "Flag 11",
-                    "x": 2360,
-                    "y": 1544
-                  },
-                  {
-                    "name": "Flag 10",
-                    "x": 1880,
-                    "y": 1512
-                  },
-                  {
-                    "name": "Flag 9",
-                    "x": 1464,
-                    "y": 1472
-                  },
-                  {
-                    "name": "Flag 8",
-                    "x": 1400,
-                    "y": 1240
-                  },
-                  {
-                    "name": "Flag 7",
-                    "x": 1280,
-                    "y": 992
-                  }
-                ],
-                "berry": [
-                  {
-                    "id": 66,
-                    "x": 72,
-                    "y": 2840,
-                    "checkpointId": 6
-                  },
-                  {
-                    "id": 279,
-                    "x": 1120,
-                    "y": 2680,
-                    "checkpointId": 6
-                  },
-                  {
-                    "id": 342,
-                    "x": 824,
-                    "y": 2512,
-                    "checkpointId": 6
-                  }
-                ]
-              },
-              "canvas": {
-                "position": {
-                  "x": 25016,
-                  "y": -21768
-                },
-                "size": {
-                  "width": 2560,
-                  "height": 3256
-                },
-                "boundingBox": {
-                  "top": -21768,
-                  "left": 25016,
-                  "bottom": -18512,
-                  "right": 27576
-                }
-              }
+            "flag-28": {
+              "name": "Flag 28",
+              "checkpointNo": 6
             },
-            "g-02": {
+            "flag-27": {
+              "name": "Flag 27",
+              "checkpointNo": 6
+            },
+            "flag-26": {
+              "name": "Flag 26",
+              "checkpointNo": 6
+            },
+            "flag-25": {
+              "name": "Flag 25",
+              "checkpointNo": 6
+            },
+            "flag-24": {
+              "name": "Flag 24",
+              "checkpointNo": 6
+            },
+            "flag-23": {
+              "name": "Flag 23",
+              "checkpointNo": 6
+            },
+            "flag-22": {
+              "name": "Flag 22",
+              "checkpointNo": 6
+            },
+            "flag-21": {
+              "name": "Flag 21",
+              "checkpointNo": 6
+            },
+            "flag-20": {
+              "name": "Flag 20",
+              "checkpointNo": 6
+            },
+            "flag-19": {
+              "name": "Flag 19",
+              "checkpointNo": 6
+            },
+            "flag-18": {
+              "name": "Flag 18",
+              "checkpointNo": 6
+            },
+            "flag-17": {
+              "name": "Flag 17",
+              "checkpointNo": 6
+            },
+            "flag-16": {
+              "name": "Flag 16",
+              "checkpointNo": 6
+            },
+            "flag-15": {
+              "name": "Flag 15",
+              "checkpointNo": 6
+            },
+            "flag-14": {
+              "name": "Flag 14",
+              "checkpointNo": 6
+            },
+            "flag-13": {
+              "name": "Flag 13",
+              "checkpointNo": 6
+            },
+            "flag-12": {
+              "name": "Flag 12",
+              "checkpointNo": 6
+            },
+            "flag-11": {
+              "name": "Flag 11",
+              "checkpointNo": 6
+            },
+            "flag-10": {
+              "name": "Flag 10",
+              "checkpointNo": 6
+            },
+            "flag-9": {
+              "name": "Flag 9",
+              "checkpointNo": 6
+            },
+            "flag-8": {
+              "name": "Flag 8",
+              "checkpointNo": 6
+            },
+            "flag-7": {
+              "name": "Flag 7",
+              "checkpointNo": 6
+            },
+            "flag-6": {
               "name": "Flag 6",
-              "checkpointNo": 6,
-              "defaultSpawn": {
-                "x": 440,
-                "y": 928
-              },
-              "entities": {
-                "spawn": [
-                  {
-                    "name": "Flag 6",
-                    "x": 440,
-                    "y": 928
-                  },
-                  {
-                    "x": 272,
-                    "y": 32
-                  }
-                ]
-              },
-              "canvas": {
-                "position": {
-                  "x": 25920,
-                  "y": -22720
-                },
-                "size": {
-                  "width": 504,
-                  "height": 952
-                },
-                "boundingBox": {
-                  "top": -22720,
-                  "left": 25920,
-                  "bottom": -21768,
-                  "right": 26424
-                }
-              }
+              "checkpointNo": 6
             },
-            "g-03": {
-              "name": "Flags 5 - 1",
-              "checkpointNo": 6,
-              "defaultSpawn": {
-                "x": 296,
-                "y": 3232
-              },
-              "entities": {
-                "spawn": [
-                  {
-                    "name": "Flag 5",
-                    "x": 296,
-                    "y": 3232
-                  },
-                  {
-                    "name": "Flag 4",
-                    "x": 384,
-                    "y": 2992
-                  },
-                  {
-                    "name": "Flag 3",
-                    "x": 1128,
-                    "y": 2784
-                  },
-                  {
-                    "name": "Flag 2",
-                    "x": 1032,
-                    "y": 1976
-                  },
-                  {
-                    "name": "Flag 1",
-                    "x": 856,
-                    "y": 1264
-                  },
-                  {
-                    "name": "Summit",
-                    "x": 1752,
-                    "y": 456
-                  }
-                ],
-                "berry": [
-                  {
-                    "id": 1504,
-                    "x": 672,
-                    "y": 2688,
-                    "checkpointId": 6
-                  }
-                ]
-              },
-              "canvas": {
-                "position": {
-                  "x": 25920,
-                  "y": -25976
-                },
-                "size": {
-                  "width": 2096,
-                  "height": 3256
-                },
-                "boundingBox": {
-                  "top": -25976,
-                  "left": 25920,
-                  "bottom": -22720,
-                  "right": 28016
-                }
-              }
+            "flag-5": {
+              "name": "Flag 5",
+              "checkpointNo": 6
+            },
+            "flag-4": {
+              "name": "Flag 4",
+              "checkpointNo": 6
+            },
+            "flag-3": {
+              "name": "Flag 3",
+              "checkpointNo": 6
+            },
+            "flag-2": {
+              "name": "Flag 2",
+              "checkpointNo": 6
+            },
+            "flag-1": {
+              "name": "Flag 1",
+              "checkpointNo": 6
             }
           },
-          "roomCount": 95,
+          "roomCount": 120,
           "canvas": {
             "position": {
               "x": -192,
@@ -26420,11 +26208,28 @@
             {
               "name": "3000 M",
               "abbreviation": "3000M",
-              "roomCount": 4,
+              "roomCount": 21,
               "roomOrder": [
-                "g-00",
-                "g-01",
-                "g-02",
+                "flag-20",
+                "flag-19",
+                "flag-18",
+                "flag-17",
+                "flag-16",
+                "flag-15",
+                "flag-14",
+                "flag-13",
+                "flag-12",
+                "flag-11",
+                "flag-10",
+                "flag-9",
+                "flag-8",
+                "flag-7",
+                "flag-6",
+                "flag-5",
+                "flag-4",
+                "flag-3",
+                "flag-2",
+                "flag-1",
                 "g-03"
               ],
               "canvas": {
@@ -27388,208 +27193,88 @@
               },
               "linked": [
                 "f-02",
-                "g-00"
+                "flag-20"
               ]
             },
-            "g-00": {
-              "name": "Flags 20 - 15",
-              "checkpointNo": 6,
-              "defaultSpawn": {
-                "x": 160,
-                "y": 2280
-              },
-              "entities": {
-                "spawn": [
-                  {
-                    "name": "Flag 20",
-                    "x": 160,
-                    "y": 2280
-                  },
-                  {
-                    "name": "Flag 19",
-                    "x": 64,
-                    "y": 2120
-                  },
-                  {
-                    "name": "Flag 18",
-                    "x": 296,
-                    "y": 2056
-                  },
-                  {
-                    "name": "Flag 17",
-                    "x": 272,
-                    "y": 1608
-                  },
-                  {
-                    "name": "Flag 16",
-                    "x": 192,
-                    "y": 1456
-                  },
-                  {
-                    "name": "Flag 15",
-                    "x": 288,
-                    "y": 1184
-                  }
-                ]
-              },
-              "canvas": {
-                "position": {
-                  "x": 12688,
-                  "y": -13600
-                },
-                "size": {
-                  "width": 320,
-                  "height": 2304
-                },
-                "boundingBox": {
-                  "top": -13600,
-                  "left": 12688,
-                  "bottom": -11296,
-                  "right": 13008
-                }
-              },
-              "linked": [
-                "g-00",
-                "g-01"
-              ]
+            "flag-20": {
+              "name": "Flag 20",
+              "checkpointNo": 6
             },
-            "g-01": {
-              "name": "Flags 14 - 9",
-              "checkpointNo": 6,
-              "defaultSpawn": {
-                "x": 232,
-                "y": 1184
-              },
-              "entities": {
-                "spawn": [
-                  {
-                    "name": "Flag 14",
-                    "x": 232,
-                    "y": 1184
-                  },
-                  {
-                    "name": "Flag 13",
-                    "x": 264,
-                    "y": 1000
-                  },
-                  {
-                    "name": "Flag 12",
-                    "x": 696,
-                    "y": 912
-                  },
-                  {
-                    "name": "Flag 11",
-                    "x": 1200,
-                    "y": 1032
-                  },
-                  {
-                    "name": "Flag 10",
-                    "x": 1704,
-                    "y": 888
-                  },
-                  {
-                    "name": "Flag 9",
-                    "x": 1424,
-                    "y": 360
-                  }
-                ]
-              },
-              "canvas": {
-                "position": {
-                  "x": 12632,
-                  "y": -14808
-                },
-                "size": {
-                  "width": 1792,
-                  "height": 1208
-                },
-                "boundingBox": {
-                  "top": -14808,
-                  "left": 12632,
-                  "bottom": -13600,
-                  "right": 14424
-                }
-              },
-              "linked": [
-                "g-01",
-                "g-02"
-              ]
+            "flag-19": {
+              "name": "Flag 19",
+              "checkpointNo": 6
             },
-            "g-02": {
-              "name": "Flags 8 - 1",
-              "checkpointNo": 6,
-              "defaultSpawn": {
-                "x": 256,
-                "y": 2672
-              },
-              "entities": {
-                "spawn": [
-                  {
-                    "x": 256,
-                    "y": 2672
-                  },
-                  {
-                    "name": "Flag 8",
-                    "x": 164,
-                    "y": 2648
-                  },
-                  {
-                    "name": "Flag 7",
-                    "x": 312,
-                    "y": 2504
-                  },
-                  {
-                    "name": "Flag 6",
-                    "x": 528,
-                    "y": 2344
-                  },
-                  {
-                    "name": "Flag 5",
-                    "x": 1016,
-                    "y": 2256
-                  },
-                  {
-                    "name": "Flag 4",
-                    "x": 896,
-                    "y": 1872
-                  },
-                  {
-                    "name": "Flag 3",
-                    "x": 712,
-                    "y": 1680
-                  },
-                  {
-                    "name": "Flag 2",
-                    "x": 544,
-                    "y": 1504
-                  },
-                  {
-                    "name": "Flag 1",
-                    "x": 1152,
-                    "y": 1120
-                  }
-                ]
-              },
-              "canvas": {
-                "position": {
-                  "x": 12632,
-                  "y": -17504
-                },
-                "size": {
-                  "width": 2344,
-                  "height": 2696
-                },
-                "boundingBox": {
-                  "top": -17504,
-                  "left": 12632,
-                  "bottom": -14808,
-                  "right": 14976
-                }
-              },
-              "linked": [
-                "g-02",
-                "g-03"
-              ]
+            "flag-18": {
+              "name": "Flag 18",
+              "checkpointNo": 6
+            },
+            "flag-17": {
+              "name": "Flag 17",
+              "checkpointNo": 6
+            },
+            "flag-16": {
+              "name": "Flag 16",
+              "checkpointNo": 6
+            },
+            "flag-15": {
+              "name": "Flag 15",
+              "checkpointNo": 6
+            },
+            "flag-14": {
+              "name": "Flag 14",
+              "checkpointNo": 6
+            },
+            "flag-13": {
+              "name": "Flag 13",
+              "checkpointNo": 6
+            },
+            "flag-12": {
+              "name": "Flag 12",
+              "checkpointNo": 6
+            },
+            "flag-11": {
+              "name": "Flag 11",
+              "checkpointNo": 6
+            },
+            "flag-10": {
+              "name": "Flag 10",
+              "checkpointNo": 6
+            },
+            "flag-9": {
+              "name": "Flag 9",
+              "checkpointNo": 6
+            },
+            "flag-8": {
+              "name": "Flag 8",
+              "checkpointNo": 6
+            },
+            "flag-7": {
+              "name": "Flag 7",
+              "checkpointNo": 6
+            },
+            "flag-6": {
+              "name": "Flag 6",
+              "checkpointNo": 6
+            },
+            "flag-5": {
+              "name": "Flag 5",
+              "checkpointNo": 6
+            },
+            "flag-4": {
+              "name": "Flag 4",
+              "checkpointNo": 6
+            },
+            "flag-3": {
+              "name": "Flag 3",
+              "checkpointNo": 6
+            },
+            "flag-2": {
+              "name": "Flag 2",
+              "checkpointNo": 6
+            },
+            "flag-1": {
+              "name": "Flag 1",
+              "checkpointNo": 6
             },
             "g-03": {
               "name": "Cassette",
@@ -27629,11 +27314,11 @@
                 }
               },
               "linked": [
-                "g-02"
+                "flag-1"
               ]
             }
           },
-          "roomCount": 29,
+          "roomCount": 46,
           "canvas": {
             "position": {
               "x": -176,
