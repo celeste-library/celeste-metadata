@@ -1,0 +1,50 @@
+version: 2.1
+
+parameters:
+  json-change:
+    type: boolean
+    default: false
+  images-change:
+    type: boolean
+    default: false
+
+workflows:
+  deploy:
+    when:
+      or: [ << pipeline.parameters.json-change >>, << pipeline.parameters.images-change >> ]
+    jobs:
+      - deploy_changes:
+          context:
+            - deploy
+          filters:
+            branches:
+              only: main
+
+jobs:
+  deploy_changes:
+    docker:
+      - image: cimg/base:current
+    steps:
+      - checkout:
+          path: ~/celeste-metadata
+      - run:
+          name: Set up SSH for deploy
+          command: |
+            mkdir -p ~/.ssh
+            echo "$DEPLOY_HOST $DEPLOY_FINGERPRINT" >> ~/.ssh/known_hosts
+      - when:
+          condition: << pipeline.parameters.json-change >>
+          steps:
+            - run:
+                name: Deploy JSON
+                command: |
+                  ssh $DEPLOY_USER@$DEPLOY_HOST "mkdir -p /home/$DEPLOY_USER/data/"
+                  scp -r ~/celeste-metadata/celeste.json $DEPLOY_USER@$DEPLOY_HOST:/home/$DEPLOY_USER/data/
+      - when:
+          condition: << pipeline.parameters.images-change >>
+          steps:
+            - run:
+                name: Deploy images
+                command: |
+                  ssh $DEPLOY_USER@$DEPLOY_HOST "mkdir -p /var/www/html/assets/metadata/"
+                  scp -r ~/celeste-metadata/images/ $DEPLOY_USER@$DEPLOY_HOST:/var/www/html/assets/metadata/
